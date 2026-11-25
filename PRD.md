@@ -8,16 +8,16 @@ membes: Iromenu leroy 25/0149
         Mosaka Tioluwani 25/1875
         
 date: 21st of November 2026
-  Poblem Statement: On campus, students regularly struggle to find keke (tricyle) on time
+ 1. Poblem Statement: On campus, students regularly struggle to find keke (tricyle) on time
 
 Executive Summary
 On our campus, students regularly struggle to find a keke (tricycle) on time, especially during peak hours, rain, or late evenings. Drivers also struggle because they waste fuel driving around looking for passengers, and often reject trips because they don't know the destination or fare in advance.
 
-our solution is a campus-only hailing app that connects students (riders) with the nearest available keke driver in real-time. A rider enters pickup and destination, the app notifies nearby online drivers, and the first driver to accept gets the ride. The rider can track the keke on a map.
+2. our solution is a campus-only hailing app that connects students (riders) with the nearest available keke driver in real-time. A rider enters pickup and destination, the app notifies nearby online drivers, and the first driver to accept gets the ride. The rider can track the keke on a map.
 
 We are NOT building another Bolt. We are building a small, campus-specific solution for a problem we can observe every day.
 
-Core Problem:Getting a keke on campus is unpredictable, time-consuming, and frustrating for both riders and drivers.
+3. Core Problem:Getting a keke on campus is unpredictable, time-consuming, and frustrating for both riders and drivers.
 
 For Riders:
 .Long, unpredictable waiting times, especially at 8am, 12pm, and 5pm, and during rain.
@@ -31,10 +31,10 @@ For Drivers:
 . Arguments over price because fare is negotiated verbally after the trip.
 . No record of trips or earnings.
 
-Why This Matters:
+4. Why This Matters:
 If a student misses a 8am lecture because they waited 25 minutes for keke, that's an academic problem, not just a transport problem.
 
-Research Methodology
+5. Research Methodology
 We did not assume this problem. We observed and asked.
 
 Methods Used:
@@ -51,7 +51,7 @@ Interview Questions We Asked:
 
  Research Findings (What We Found)
 
-Quantitative Findings
+6. Quantitative Findings
 
 Finding from Our Observation
 
@@ -72,7 +72,7 @@ Calling a Known Driver: Students save 1-2 driver numbers and call them. If drive
 
 Why These Fail: They depend on luck, personal connections, or physical walking. No system.
 
-Proposed Solution: 
+7. Proposed Solution: 
 A mobile app with two modes in one app: Rider Mode and Driver Mode.
 
 Core Flow:
@@ -89,7 +89,7 @@ Core Flow:
 What We Will Build First
 We will ONLY build what is needed to prove matching works.
 
-IN SCOPE for MVP:
+8. IN SCOPE for MVP:
 .  Sign up / Login (Phone number + OTP or Email + Password)
 .  Choose Role: Rider or Driver
 .  Driver Profile: Name, Photo, Keke Plate Number, Phone
@@ -115,7 +115,7 @@ OUT OF SCOPE (NOT in MVP):
 Why This MVP?: If we can prove that 1 rider can request and 1 driver can accept and arrive, we have solved the core problem. Everything else is decoration.
 
 
- Functional Requirements
+9.  Functional Requirements
 . System must allow user to create account as Rider or Driver.
 . System must capture and update driver live location every 10 seconds when Online.
 . System must calculate distance between rider and available drivers.
@@ -134,7 +134,7 @@ Why This MVP?: If we can prove that 1 rider can request and 1 driver can accept 
 . Privacy: Location is only shared during an active ride, not when app is closed.
 . Scalability:* MVP designed for 100 users (50 riders, 20 drivers) on one campus. 
 
- Success Metrics - How Will We Know It Works?
+10.  Success Metrics - How Will We Know It Works?
 
 If we test for 1 week with 20 drivers and 50 students:
 . Average wait time drops from 20 mins to < 7 mins
@@ -142,7 +142,7 @@ If we test for 1 week with 20 drivers and 50 students:
 . Driver empty cruising time drops by 30%
 . 70% of riders say they feel safer than boarding random keke
 
- Risks & Assumptions
+11.  Risks & Assumptions
 
 Risk/How We Will Handle It 
 
@@ -157,7 +157,7 @@ Assumptions:
 . Campus has at least 20 keke drivers willing to try pilot
 . University allows keke operation on campus
 
-Roadmap
+12. Roadmap
 
 . (This PRD): Research + PRD + Figma Prototype
 . Backend setup + Login + Maps
